@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/postres.css">
+    <title>VOTACIÓN DE POSTRES</title>
+</head>
+<body>
+    <center><h1>Vote por su postre favorito o preferido</h1></center>
+    <div class="postres2">
+        <div class="postres">
+            <img src="img/Cheese Cake.png" alt="" onclick="votar()">
+
+                <img src="img/Flan.png" alt="" onclick="votar2()">
+
+                <img src="img/Helado.png" alt="" onclick="votar3()">
+
+                <img src="img/Lava Cake.png" alt="" onclick="votar4()">
+        </div>
+    </div>
+        
+
+<br><br>
+
+<center>
+    <input type="submit" value="Mostrar Resultado" onclick="CalcularPorcent()">
+    <br>
+    <br>
+    <input type="submit" value="Borrar Resultado" onclick="Ocultar()">
+    <div id="resultado"></div>
+</center>
+
+    <script src="js/postre.js"></script>
+</body>
+</html>
